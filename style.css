@@ -173,13 +173,33 @@ header {
 }
 
 .testo-left {
+  text-align: left;
+  width: 20%;
   float: left;
+  margin: 5% 15%;
 }
 
 .iphone {
   text-align: center;
+  padding-top: 10%;
 }
 
 .testo-right {
+  text-align: left;
+  width: 20%;
+  margin: 5% 15%;
   float: right;
+  line-height: 200%;
+}
+
+.one {
+  background-image: url('https://www.domusweb.it/content/dam/domusweb/it/product-news/2019/07/17/helbiz-chi-e-cosa-c-dietro-al-boom-dei-monopattini-elettrici/HelbizGO_low3.jpg.foto.rbig.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.smartMobility {
+  
 }
