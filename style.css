@@ -17,19 +17,18 @@
 }
 
 .main-container {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
 }
 
 .column {
     float: left;
     padding: 0 15px;
-    border: 1px solid black;
     height: 500px;
 }
 
 .half.column  {
-    width: 50%;
+    width: 48%;
 }
 
 .one.column  {
@@ -146,7 +145,7 @@ header {
 }
 /*** fine jumbotron ***/
 
-/*** inizio altre sezioni ... ***/
+/*** inizio sezione con due riquadri con i prodotti ***/
 #second {
     padding-top: 80px;
 }
@@ -165,10 +164,14 @@ header {
 .imgScooter {
   margin:5% 30%;
 }
-
+/*** fine sezione con due riquadri con i prodotti ***/
+/*** inizio sezione con iphone che sborda ***/
 #third {
   margin-top: 10%;
-  background-color: #C9D7E1;
+  background-image: url('https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
   height: 500px;
 }
 
@@ -191,15 +194,77 @@ header {
   float: right;
   line-height: 200%;
 }
-
+/*** fine sezione con iphone che sborda ***/
+/*** inizio sezione con riquadri con testo all'interno ***/
 .one {
-  background-image: url('https://www.domusweb.it/content/dam/domusweb/it/product-news/2019/07/17/helbiz-chi-e-cosa-c-dietro-al-boom-dei-monopattini-elettrici/HelbizGO_low3.jpg.foto.rbig.jpg');
+  background-image: url('https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
+  margin-top: 5%;
+}
+
+.learn {
+  text-decoration: none;
+  color: white;
+}
+
+.learn:hover {
+  text-decoration: underline;
 }
 
 .smartMobility {
-  
+ text-align: center;
+ float: right;
+ margin: 15% 0;
+ width: 50%;
+ font-size: 25px;
+}
+
+/*** sezione con 2 riquadri ***/
+.halfLeft {
+  background-image: url('https://helbiz.com/asset/pages/newhome/images/HelbiZAPP.png');
+  background-color: #344453;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+
+.getTheApp {
+  margin-top: 5%;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+.halfRight {
+  background-image: url('https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+/*** fine sezione con riquadri con testo all'interno ***/
+/*** inizio sezione con riquadro Instagram ***/
+#instagram {
+background-image: url('https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: left;
+height: 500px;
+position: relative;
+}
+
+.helbizFamily {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
