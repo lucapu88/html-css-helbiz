@@ -154,5 +154,32 @@ header {
 .product {
     background-color: lightgrey;
     padding: 10px;
-    height: 500px;
+}
+
+.helbizGo {
+  text-align: center;
+  padding-top: 40px;
+  line-height: 200%;
+}
+
+.imgScooter {
+  margin:5% 30%;
+}
+
+#third {
+  margin-top: 10%;
+  background-color: #C9D7E1;
+  height: 500px;
+}
+
+.testo-left {
+  float: left;
+}
+
+.iphone {
+  text-align: center;
+}
+
+.testo-right {
+  float: right;
 }
