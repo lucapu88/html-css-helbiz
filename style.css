@@ -278,6 +278,10 @@ margin-top: 3%;
   margin-top: 5px;
 }
 
+.fab:hover {
+  cursor: pointer;
+}
+
 .fab:nth-of-type(1n+2) {
   margin-left: 20px;
 }
@@ -345,5 +349,5 @@ footer {
 .store {
   text-align: center;
   margin-top: 30px;
-  padding-bottom: 90px; 
+  padding-bottom: 90px;
 }
